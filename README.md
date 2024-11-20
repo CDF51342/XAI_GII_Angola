@@ -14,7 +14,7 @@ El objetivo del repositorio es construir un modelo predictivo para el Índice Gl
 5. **Comparación**: Analizar la posible desviación entre las explicaciones globales y locales.
 
 ### Archivos Principales
-- **`data/Innova_2022.xlsx`**: Contiene datos de 132 países y 109 indicadores (medioambientales, educativos, energéticos, financieros, etc.).
+- **`data/`**: Contiene datos de 132 países y 109 indicadores (medioambientales, educativos, energéticos, financieros, etc.) en formato *xlsx* ([Innova_2022.xlsx](data/Innova_2022.xlsx)) y *csv* ([Innova_2022.csv](data/Innova_2022.csv)).
 - **`notebooks/`**: Notebooks Jupyter para preprocesamiento, desarrollo del modelo y análisis XAI.
 <!-- - **`scripts/`**: Scripts de Python para entrenar modelos y generar explicaciones. -->
 - **`README.md`**: Este archivo, que describe el propósito y contenido del repositorio.
