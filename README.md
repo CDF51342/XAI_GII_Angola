@@ -4,6 +4,16 @@ El objetivo del repositorio es construir un modelo predictivo para el Índice Gl
 
 ---
 
+## Contenidos del README
+- [Contenido del Proyecto](#contenido-del-proyecto)
+  - [Objetivos](#objetivos)
+  - [Archivos Principales](#archivos-principales)
+- [Requisitos](#requisitos)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Explicabilidad local](#explicabilidad-local)
+
+---
+
 ## Contenido del Proyecto
 
 ### Objetivos
