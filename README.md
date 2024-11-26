@@ -25,8 +25,8 @@ El objetivo del repositorio es construir un modelo predictivo para el Índice Gl
 
 ### Archivos Principales
 - **`data/`**: Contiene datos de 132 países y 109 indicadores (medioambientales, educativos, energéticos, financieros, etc.) en formato *xlsx* ([Innova_2022.xlsx](data/Innova_2022.xlsx)) y *csv* ([Innova_2022.csv](data/Innova_2022.csv)). A su vez, en el directorio [models/](data/models) se encuentran los modelos de Random Forest obtenidos en los notebooks.
-- **`notebooks/`**: Notebooks Jupyter para preprocesamiento ([EDA.ipynb](notebooks/EDA.ipynb)), desarrollo del modelo ([Random_Forest.ipynb](notebooks/Random_Forest.ipynb)) y análisis XAO ([XAO.ipynb](notebooks/XAO.ipynb)).
-- **`images/`**: Imágenes obtenidas en el preprocesamiento ([EDA/](images/EDA)), creación del modelo ([RF/](images/RF)) y XAO ([XAO/](images/XAO)).
+- **`notebooks/`**: Notebooks Jupyter para preprocesamiento ([EDA.ipynb](notebooks/EDA.ipynb)), desarrollo del modelo ([Random_Forest.ipynb](notebooks/Random_Forest.ipynb)) y análisis XAI ([XAI.ipynb](notebooks/XAI.ipynb)).
+- **`images/`**: Imágenes obtenidas en el preprocesamiento ([EDA/](images/EDA)), creación del modelo ([RF/](images/RF)) y XAI ([XAI/](images/XAI)).
 - **`README.md`**: Este archivo, que describe el propósito y contenido del repositorio.
 
 ---
