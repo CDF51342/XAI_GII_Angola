@@ -24,19 +24,21 @@ El objetivo del repositorio es construir un modelo predictivo para el Índice Gl
 5. **Comparación**: Analizar la posible desviación entre las explicaciones globales y locales.
 
 ### Archivos Principales
-- **`data/`**: Contiene datos de 132 países y 109 indicadores (medioambientales, educativos, energéticos, financieros, etc.) en formato *xlsx* ([Innova_2022.xlsx](data/Innova_2022.xlsx)) y *csv* ([Innova_2022.csv](data/Innova_2022.csv)).
-- **`notebooks/`**: Notebooks Jupyter para preprocesamiento, desarrollo del modelo y análisis XAI.
-<!-- - **`scripts/`**: Scripts de Python para entrenar modelos y generar explicaciones. -->
+- **`data/`**: Contiene datos de 132 países y 109 indicadores (medioambientales, educativos, energéticos, financieros, etc.) en formato *xlsx* ([Innova_2022.xlsx](data/Innova_2022.xlsx)) y *csv* ([Innova_2022.csv](data/Innova_2022.csv)). A su vez, en el directorio [models/](data/models) se encuentran los modelos de Random Forest obtenidos en los notebooks.
+- **`notebooks/`**: Notebooks Jupyter para preprocesamiento ([EDA.ipynb](notebooks/EDA.ipynb)), desarrollo del modelo ([Random_Forest.ipynb](notebooks/Random_Forest.ipynb)) y análisis XAO ([XAO.ipynb](notebooks/XAO.ipynb)).
+- **`images/`**: Imágenes obtenidas en el preprocesamiento ([EDA/](images/EDA)), creación del modelo ([RF/](images/RF)) y XAO ([XAO/](images/XAO)).
 - **`README.md`**: Este archivo, que describe el propósito y contenido del repositorio.
 
 ---
 
 ## Requisitos
-- Python 3.8 o superior
+- Python 3.10 o superior
 - Bibliotecas principales:
   - `pandas`
-  - `scikit-learn`
+  - `numpy`
   - `matplotlib`
+  - `scikit-learn`
+  - `pickle`
   - `shap` (para interpretabilidad XAI)
 
 Para instalar los requisitos:
@@ -47,12 +49,11 @@ pip install -r requirements.txt
 ---
 
 ## Estructura del Proyecto
-- `data/`: Contiene los datos en formato Excel y sus versiones procesadas.
+- `data/`: Contiene los datos en formato Excel y CSV, junto con los modelos implementados.
 - `notebooks/`: Notebooks para cada etapa del proyecto:
     - Exploración de datos
     - Entrenamiento de modelos
     - Análisis de explicabilidad
-- `scripts/`: Scripts reutilizables para análisis automatizados.
 <!-- - `report/`: Resultados y discusión final en formato PDF. -->
 
 ## Explicabilidad Local
